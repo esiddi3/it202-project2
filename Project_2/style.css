@@ -1,0 +1,104 @@
+{
+  margin: 0px;
+  padding: 0px;
+  }
+
+.slider {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+  background-color: gray;
+}
+.slide {
+  height: 500px;
+  width: 500%;
+  flex-shrink: 0;
+  animation: slider infinite 20s 5s; 
+}
+.imagecon{
+
+
+    height:500px;
+    width:20%;
+    background-color: blue;
+    float: left;
+
+
+}
+
+.imagecon:nth-child(1)
+{
+
+background-image: url('images/pic1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.imagecon:nth-child(2)
+{
+
+background-image: url('images/pic2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.imagecon:nth-child(3)
+{
+
+background-image: url('images/pic3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.imagecon:nth-child(4)
+{
+
+background-image: url('images/pic4.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.imagecon:nth-child(5)
+{
+
+background-image: url('images/pic1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@keyframes slider
+{
+12.5%
+{
+  margin-left: -100%
+}
+25%
+{
+  margin-left: -100%
+}
+37.5%
+{
+  margin-left: -200%
+}
+50%
+{
+  margin-left: -200%
+}
+62.5%
+{
+  margin-left: -300%
+}
+750%
+{
+  margin-left: -300%
+}
+87.5%
+{
+  margin-left: -400%
+}
+1000%
+{
+  margin-left: -400%
+}
+
+}
